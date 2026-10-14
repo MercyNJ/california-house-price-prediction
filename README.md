@@ -1,7 +1,7 @@
 # California Housing Price Prediction
 
 ## Overview
-An end-to-end machine learning project that predicts median house values in California using the California Housing dataset. The project covers exploratory data analysis, feature engineering, model comparison, hyperparameter tuning, and evaluation.
+An end-to-end simple machine learning project that predicts median house values in California using the California Housing dataset. The project covers exploratory data analysis, feature engineering, model comparison, hyperparameter tuning, and evaluation.
 
 ## Features
 - **EDA:** Visualises house value distribution, income relationships, and geographic patterns.
