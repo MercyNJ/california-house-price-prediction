@@ -1,0 +1,16 @@
+# Virtual environments
+house-price-venv/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
