@@ -67,3 +67,8 @@ Median income is by far the most important feature. See `outputs/results.json` f
 
 ## Limitations
 The model predicts median housing values for California census block groups, not current market prices for individual properties.
+
+## Future Improvements
+
+- **Expand hyperparameter tuning.** Random Forest and Gradient Boosting achieved nearly identical cross-validation RMSE scores (0.511 and 0.512, respectively). Testing more configurations and tuning both models could identify further improvements. `HistGradientBoostingRegressor` is another candidate worth evaluating.
+- **Improve results reporting.** Add percentage improvement over the baseline alongside the absolute RMSE reduction (in $100,000 units) in `results.json` to make model performance easier to interpret.
